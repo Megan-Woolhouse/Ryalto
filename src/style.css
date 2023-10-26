@@ -31,8 +31,8 @@ header img {
   header .text {
     background-image: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.7)
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
       ),
       url("../img/header.jpg");
     background-repeat: no-repeat;
@@ -42,5 +42,12 @@ header img {
 
   header {
     display: block;
+  }
+}
+
+@media (max-width: 520px) {
+  header .text {
+    font-size: 12px;
+    padding: 50px 20px;
   }
 }
