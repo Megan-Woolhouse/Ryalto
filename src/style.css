@@ -1,0 +1,46 @@
+header {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+header .text {
+  text-align: center;
+  color: white;
+  background-color: #3c3d3e;
+  padding: 80px 40px 40px;
+  margin: 0;
+  font-size: 23px;
+}
+
+header img {
+  width: 100%;
+}
+
+@media (max-width: 1250px) {
+  header .text {
+    font-size: 18px;
+    padding: 60px;
+  }
+}
+
+@media (max-width: 1060px) {
+  header img {
+    display: none;
+  }
+
+  header .text {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 40px;
+  }
+
+  header {
+    display: block;
+  }
+}
