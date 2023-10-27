@@ -15,7 +15,7 @@ nav {
   justify-content: space-between;
 }
 
-.nav-bar {
+.nav-home {
   display: flex;
   align-items: center;
   font-size: 28px;
@@ -60,7 +60,7 @@ main {
   padding-top: 60px;
 }
 
-h3 {
+main h3 {
   text-align: center;
   color: var(--main-bg-color);
   margin-bottom: 50px;
@@ -102,10 +102,10 @@ main .blog {
   margin: 20px 0;
 }
 
-.blog a {
+main .blog a {
   text-decoration: none;
 }
-.card {
+main .card {
   background-color: var(--brand-color-seconday);
   text-align: center;
   padding: 10px;
@@ -117,7 +117,7 @@ main .blog {
   min-height: 85%;
 }
 
-.card img {
+main .card img {
   display: block;
   margin: 0 auto;
   border-radius: 4px;
@@ -125,12 +125,12 @@ main .blog {
   border: solid 2px var(--main-bg-color);
 }
 
-.card h4 {
+main .card h4 {
   padding: 20px;
   font-size: 14px;
 }
 
-.card p {
+main .card p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -163,12 +163,12 @@ footer {
   padding: 20px;
 }
 
-.socials {
+footer .socials {
   font-size: 20px;
   text-align: center;
 }
 
-.social-icon {
+footer .social-icon {
   background-color: white;
   padding: 7px;
   border-radius: 100%;
@@ -187,7 +187,7 @@ footer {
     padding: 10px;
   }
 
-  .nav-bar {
+  .nav-home {
     font-size: 14px;
   }
 
@@ -238,7 +238,7 @@ footer {
     font-size: 8px;
   }
 
-  .nav-bar {
+  .nav-home {
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -274,20 +274,20 @@ footer {
     display: block;
     max-width: 100%;
   }
-  .card {
+  main .card {
     margin: 40px auto;
     padding-top: 15px;
     max-width: 80%;
   }
 
-  .card img {
+  main .card img {
     display: block;
 
     border-radius: 4px;
     max-width: 90%;
   }
 
-  .card p {
+  main .card p {
     padding: 0 20px 20px;
   }
 
@@ -302,10 +302,10 @@ footer {
     font-size: 20px;
   }
 
-  .socials {
+  footer .socials {
     font-size: 12px;
   }
-  .social-icon {
+  footer .social-icon {
     padding: 5px;
 
     margin: 0 10px;
