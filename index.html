@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryalto Developers Page</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bb1a7de51a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <nav>
+      <div class="nav-bar">
+        <a href="/">
+          <img src="img/ryalto-logo-lg.png" alt="logo" class="logo" />
+        </a>
+        <a href="/">
+          <span>Developer Page</span>
+        </a>
+      </div>
+      <ul>
+        <li><a href="https://developer.ryalto.group/">Blogs</a></li>
+        <li><a href="https://developer.ryalto.group/team">The Team</a></li>
+        <li><a href="https://developer.ryalto.group/careers">Careers</a></li>
+      </ul>
+    </nav>
     <header>
       <div class="text">
         <h1>Here at Ryalto we're passionate about our people.</h1>
@@ -17,73 +42,106 @@
     </header>
     <main>
       <section class="principles">
-        <h3>OUR GUIDING PRINCIPLES</h3>
+        <h3>
+          <a
+            href="https://developer.ryalto.group/blog/2022/engineering-principles"
+            target="_blank"
+            >OUR GUIDING PRINCIPLES</a
+          >
+        </h3>
 
-        <a
-          href="https://developer.ryalto.group/blog/2022/engineering-principles"
-          target="_blank"
-          >Read more here</a
-        >
         <ul>
           <li>Build Something Beautiful</li>
           <li>Keep It Simple</li>
-          <li>Ownership</li>
-          <li>Open Communication</li>
+          <li>&nbsp;&nbsp;Ownership</li>
+          <li>Open Communication &nbsp;</li>
           <li>Invest In Ourselves</li>
           <li>Communication Isn't Easy</li>
           <li>Bias For Action</li>
-          <li>It's A Problem When Its A Problem</li>
+          <li>Its A Problem When Its A Problem</li>
           <li>The Only Way To Go Fast, Is To Go Well</li>
         </ul>
       </section>
-      <section class="blog">
+      <section>
         <h3>
           <a href="https://developer.ryalto.group/" target="_blank"
             >RECENT BLOGS</a
           >
         </h3>
-        <div class="card">
-          <img src="img/blog-1.png" alt="Blog Image" />
-          <h4>Migration to Github Actions for Rails CI</h4>
-          <p>
-            RubyCI is tragically shutting down, so I’m migrating to GitHub
-            Actions for rails CI
-          </p>
+        <div class="blog">
+          <a
+            href="https://developer.ryalto.group/blog/2022/rails-github-actions"
+            target="_blank"
+            ><div class="card">
+              <img src="img/blog-1.png" alt="Blog Image" />
+              <h4>Migration to Github Actions for Rails CI</h4>
+              <p>
+                RubyCI is tragically shutting down, so I’m migrating to GitHub
+                Actions for rails CI
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://developer.ryalto.group/blog/2022/engineering-principles"
+            target="_blank"
+          >
+            <div class="card">
+              <img src="img/blog-2.png" alt="Blog Image" />
+              <h4>Our Engineering Principles</h4>
+              <p>
+                The principles that we follow as we build high quality software
+                at Ryalto
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://developer.ryalto.group/blog/2022/getting-into-ruby-rails"
+            target="_blank"
+          >
+            <div class="card">
+              <img src="img/blog-3.png" alt="Blog Image" />
+              <h4>Getting into Ruby on Rails</h4>
+              <p>
+                A friend recently asked me how to get started with Ruby on
+                Rails. I thought I’d write up my response here
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://developer.ryalto.group/blog/2022/admin-authorisation"
+            target="_blank"
+          >
+            <div class="card">
+              <img src="img/blog-4.png" alt="Blog Image" />
+              <h4>Hotwire Handbook Part 2</h4>
+              <p>
+                Part Two of the Hotwire Handbook. A details dive into pagination
+                with Hotwire. An extenstion to the excellent guide by David
+                Colby.
+              </p>
+            </div>
+          </a>
         </div>
-
-        <div class="card">
-          <img src="img/blog-2.png" alt="Blog Image" />
-          <h4>Our Engineering Principles</h4>
-          <p>
-            The principles that we follow as we build high quality software at
-            Ryalto
-          </p>
-        </div>
-
-        <div class="card">
-          <img src="img/blog-3.png" alt="Blog Image" />
-          <h4>Getting into Ruby on Rails</h4>
-          <p>
-            A friend recently asked me how to get started with Ruby on Rails. I
-            thought I’d write up my response here
-          </p>
-        </div>
-
-        <div class="card">
-          <img src="img/blog-4.png" alt="Blog Image" />
-          <h4>Hotwire Handbook Part 2</h4>
-          <p>
-            Part Two of the Hotwire Handbook. A details dive into pagination
-            with Hotwire. An extenstion to the excellent guide by David Colby.
-          </p>
-        </div>
-      </section>
-      <section class="team">
-        <button>
-          <a href="https://developer.ryalto.group/team">MEET THE TEAM</a>
-        </button>
       </section>
     </main>
-    <footer></footer>
+    <section class="team">
+      <a href="https://developer.ryalto.group/team">MEET THE TEAM</a>
+    </section>
+    <footer>
+      <div class="socials">
+        <a href="https://github.com/ryalto" target="_blank">
+          <i class="fa-brands fa-github social-icon"></i
+        ></a>
+        <a href="https://twitter.com/ryalto" target="_blank">
+          <i class="fa-brands fa-twitter social-icon"></i
+        ></a>
+        <a href="https://www.linkedin.com/company/ryalto/" target="_blank"
+          ><i class="fa-brands fa-linkedin social-icon"></i
+        ></a>
+        <a href="https://www.ryaltogroup.com/" target="_blank"
+          ><i class="fa-solid fa-globe social-icon"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>
